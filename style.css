@@ -364,11 +364,11 @@
     display: none;
   }
   
-  /* ******************************/
+/* **********/
   
-  /* **** BIG SCREEN SIZES ***** */
+  /* ** BIG SCREEN SIZES *** */
   
-  /* *************************** */
+  /* ********* */
   @media screen and (min-width: 768px) {
     /* HEADER NAVBAR  */
     .header-nav {

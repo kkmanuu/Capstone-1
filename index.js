@@ -61,8 +61,6 @@ features.forEach((element) => {
         </div>`;
   featureTemp += featureCode;
 });
-featureEl.innerHTML = featureTemp;
-
 //speakers
 
  const speakers = [
@@ -141,3 +139,4 @@ speakers.forEach((speaker) => {
 });
 speakerEl.innerHTML = speakerTemp;
 
+featureEl.innerHTML = featureTemp;
