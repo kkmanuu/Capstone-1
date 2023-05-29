@@ -62,3 +62,82 @@ features.forEach((element) => {
   featureTemp += featureCode;
 });
 featureEl.innerHTML = featureTemp;
+
+//speakers
+
+ const speakers = [
+    {
+        image: 'images/speaker_01.png',
+        fullName: 'Yoncha Benkler',
+        position: 
+        'Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School',
+        description:
+        'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006 ',
+
+    },
+    {
+        image: 'images/speaker_02.png',
+        fullName: 'Kilnam chone',
+        position: 
+        '',
+        description:
+        'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',   
+    },
+    {
+        image: 'images/speaker_03.png',
+        fullName: 'Sohyeong Noh',
+        position: 
+        'Director of Art Centre Nabi and a board member of CC Korea',
+        description:
+        'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
+    },
+    {
+        image: 'images/speaker_04.png',
+        fullName: 'Julia Leda',
+        position: 
+        'President of Young Pirates of Europe',
+        description:
+        'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
+    },
+    {
+        image: 'images/speaker_05.png',
+        fullName: 'lila tretikov',
+        position: 
+        'Executive Director of the Wikimedia Foundation ',
+        description:
+        'Lila Tretikov is the Executive of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languag-es and used by nearly half a billion people around the world every month.',
+    },
+    {
+        image: 'images/speaker_06.png',
+        fullName: 'Ryan Merkley',
+        position: 
+        ' CEO of Creativve Commons, ex COO of the Mozilla Foundation',
+        description:
+        'Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment',
+    },
+ ];
+ 
+let speakerTemp = '';
+speakers.forEach((speaker) => {
+  const speakerCode = `
+  <div class="speaker-box">
+  <img
+    class="speaker-img"
+    src="${speaker.image}"
+    alt="Speaker Image"
+  />
+  <div class="speaker-details">
+    <h3 class="speaker-name">${speaker.fullName}</h3>
+    <p class="speaker-position">
+      ${speaker.position}
+    </p>
+    <p class="speaker-desc">
+      ${speaker.description}
+    </p>
+  </div>
+</div>
+    `;
+  speakerTemp += speakerCode;
+});
+speakerEl.innerHTML = speakerTemp;
+
