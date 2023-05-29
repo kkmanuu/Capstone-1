@@ -113,7 +113,7 @@
   .primary-header {
     color: #d85c4f;
     font-weight: 900;
-    font-size: 3.2rem;
+    font-size: 1.2rem;
     margin-bottom: 1.4rem;
     background: url(images/tools-for-motivation-KvTOwKoji7g-unsplash.jpg);
     background-position: 4rem 4rem;
@@ -140,7 +140,163 @@
     font-size: 1.4rem;
     color: #868e96;
   }
- 
+
+ /* ***************** */
+
+/* **** FEATURE ***** */
+
+/* ***************** */
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #272930;
+    background-image: url(images/pattern_bg.png);
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 4.8rem;
+  }
+  
+  .feature-main-title {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 2.4rem;
+  }
+  
+  .feature-main-title::after {
+    content: '';
+    height: 0.1rem;
+    width: 3.2rem;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .feature-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .feature-box {
+    background-color: rgba(206, 212, 218, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .feature-logo {
+    width: 4.8rem;
+  }
+  
+  .feature-title {
+    color: var(--main-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 20%;
+  }
+  
+  .feature-desc {
+    color: #fff;
+    font-size: 1.2rem;
+    justify-self: end;
+    width: 60%;
+  }
+  
+  .feature-btn1 {
+    padding: 2rem;
+    color: #fff;
+    background-color: var(--main-color);
+    border: none;
+    margin: 1.8rem 0;
+    cursor: pointer;
+  }
+  
+  .feature-btn1:hover {
+    background-color: #a5392e;
+  }
+  
+  .feature-btn2 {
+    display: none;
+  }
+  
+  /* ***************** */
+  
+  /* **** SPEAKER ***** */
+  
+  /* ***************** */
+  .speaker {
+    padding: 1.8rem 1.4rem;
+  }
+  
+  .speaker-title {
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 3.2rem;
+    text-align: center;
+  }
+  
+  .speaker-title::after {
+    content: '';
+    height: 0.1rem;
+    width: 3.2rem;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .speaker-box {
+    display: flex;
+    gap: 1.8rem;
+    margin-bottom: 1.8rem;
+  }
+  
+  .speaker-img {
+    width: 11rem;
+  }
+  
+  .speaker-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .speaker-name {
+    font-size: 1.8rem;
+  }
+  
+  .speaker-position {
+    font-size: 1.2rem;
+    color: var(--main-color);
+    position: relative;
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  .speaker-position::after {
+    content: '';
+    height: 0.1rem;
+    width: 2rem;
+    background-color: #868e96;
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+  }
+  
+  .speaker-desc {
+    line-height: 1.5;
+  }
+  
   
   /* ***************** */
   
