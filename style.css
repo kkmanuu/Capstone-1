@@ -58,7 +58,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 4.8rem;
+  gap: 5.8rem;
   align-items: center;
   justify-content: center;
   z-index: 999;
@@ -340,7 +340,7 @@ body {
   height: 4rem;
   padding: 0.5rem;
   filter: brightness(0);
-  opacity: 50%;
+  opacity: 40%;
 }
 
 /* ***************** */
