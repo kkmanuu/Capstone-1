@@ -12,7 +12,6 @@ const mobileNav = () => {
 
 menuBtn.addEventListener('click', mobileNav);
 closeBtn.addEventListener('click', mobileNav);
-
 const features = [
   {
     image: 'images/program_icon_01.png',
@@ -24,7 +23,7 @@ const features = [
     image: 'images/program_icon_02.png',
     title: 'CC Exhibition',
     description:
-      'Appreciate various creations applying cc license of artists,organised from Art center Nabi.',
+      'Appreciate various creations applying cc license of artist,organised from Art center Nabi.',
   },
   {
     image: 'images/program_icon_03.png',
