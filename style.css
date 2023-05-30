@@ -310,7 +310,7 @@ body {
 }
 
 .partner-title {
-  color: #8F8F91;
+  color: #8f8f91;
   font-size: 2.4rem;
   font-weight: 400;
   position: relative;
@@ -337,8 +337,8 @@ body {
 }
 
 .partners img {
-  height: 4rem;
-  padding: 0.5rem;
+  height: 5rem;
+  padding: 0.4rem;
   filter: brightness(0);
   opacity: 40%;
 }
