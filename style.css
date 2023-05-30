@@ -340,7 +340,7 @@ body {
   height: 5rem;
   padding: 0.4rem;
   filter: brightness(0);
-  opacity: 40%;
+  opacity: 30%;
 }
 
 /* ***************** */
@@ -395,6 +395,7 @@ body {
 
   .icon {
     display: inline-block;
+    margin-right: 16rem;
   }
 
   .container {
