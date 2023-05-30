@@ -409,7 +409,7 @@ body {
   }
 
   .nav-list {
-    background-color: #fff;
+    background-color: #FFFFFF;
     height: 0;
     display: flex;
     flex-direction: row;
@@ -420,7 +420,7 @@ body {
 
   .nav-item a:link,
   .nav-item a:visited {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .nav-item a:hover,
