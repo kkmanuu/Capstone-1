@@ -28,11 +28,11 @@
  ### Key Features <a name="key-features"></a>
 - **Great and sample design**
 - **Responsive for Mobile Menu**
-- **Preserve Data in Browser**
+- **Responsive for Desktop**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 :rocket: Live Demo
 
-[Click here](https://kkmanuu.github.io/My-Portfolio/)
+[Click here](https://kkmanuu.github.io/Capstone-1/)
 ## :computer: Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
 
@@ -47,7 +47,7 @@ In order to run this project you need the following:
 ### Setup
 Clone this repository to your desired folder or download the Zip folder:
 ```
-git clone https://github.com/kkmanuu/My-Portfolio
+git clone https://github.com/kkmanuu/Capstone-1
 ```
 - Navigate to the location of the folder in your machine
 
@@ -110,10 +110,8 @@ npx eslint .
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :telescope: Future Features <a name="future-features"></a>
-- [ ] **Navbar**
-- [ ] **Contact**
-- [ ] **Popup window**
-- [ ] **Preserve Data**
+- [ ] **Mobile version on capstone**
+- [ ] **Desktop version on capstone**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :star:️ Show your support <a name="support"></a>
