@@ -73,7 +73,7 @@ const speakers = [
       'Benkler studies commons-based peer production and published his seminal book, "The Wealth of Networks," in 2006.',
   },
   {
-    image: '',
+    image: 'images/speaker_03.png',
     fullName: 'Seong Noh',
     position:
       'Director of Art Centre Nabi and a board member of CC Korea',
