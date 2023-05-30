@@ -339,7 +339,7 @@ body {
 .partners img {
   height: 5rem;
   padding: 0.4rem;
-  filter: brightness(0);
+  filter: brightness(2);
   opacity: 30%;
 }
 
