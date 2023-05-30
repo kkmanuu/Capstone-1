@@ -136,4 +136,4 @@ speakers.forEach((speaker) => {
     `;
   speakerTemp += speakerCode;
 });
-  speakerEl.innerHTML = speakerTemp;
+speakerEl.innerHTML = speakerTemp;
