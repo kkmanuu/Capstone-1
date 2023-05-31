@@ -33,6 +33,7 @@ body {
 
 .container {
   padding: 2.5rem;
+  font-size: 29px;
 }
 
 .navbar {
@@ -352,12 +353,12 @@ body {
   padding: 2rem 3rem;
   display: flex;
   justify-content: space-between;
-  gap: 2.4rem;
+  gap: 4.6rem;
   align-items: center;
 }
 
 .footer img {
-  height: 2.4rem;
+  height: 3%;
   width: 50%;
 }
 
