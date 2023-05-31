@@ -12,6 +12,7 @@ const mobileNav = () => {
 
 menuBtn.addEventListener('click', mobileNav);
 closeBtn.addEventListener('click', mobileNav);
+
 const features = [
   {
     image: 'images/program_icon_01.png',
@@ -29,22 +30,22 @@ const features = [
     image: 'images/program_icon_03.png',
     title: 'Forum',
     description:
-      'Have time to share you thoughts and opinions with experts for each topic.',
+      'Have time to share your thoughts and opinions with experts for each topic.',
   },
   {
     image: 'images/program_icon_04.png',
     title: 'Workshop',
     description:
-      'Try creating your own work using License rather than just watching at it.',
+      'Try creating your own work using License rather than just watching it.',
   },
   {
     image: 'images/program_icon_05.png',
     title: 'CC Ignite',
     description:
-      'get opportunities to the network with CC affiliate around the world also after the summit.',
+      'Get opportunities to network with CC affiliates around the world, even after the summit.',
   },
 ];
-// const speaskers = [{}];
+
 let featureTemp = '';
 features.forEach((element) => {
   const featureCode = `<div class="feature-box">
@@ -60,60 +61,59 @@ features.forEach((element) => {
         </div>`;
   featureTemp += featureCode;
 });
-//speakers
+featureEl.innerHTML = featureTemp;
 
- const speakers = [
-    {
-        image: 'images/speaker_01.png',
-        fullName: 'Yoncha Benkler',
-        position: 
-        'Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School',
-        description:
-        'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006 ',
+const speakers = [
+  {
+    image: 'images/speaker_01.png',
+    fullName: 'Yochai Benkler',
+    position:
+      'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+    description:
+      'Benkler studies commons-based peer production and published his seminal book, "The Wealth of Networks," in 2006.',
+  },
+  {
+    image: 'images/speaker_03.png',
+    fullName: 'Seong Noh',
+    position:
+      'Director of Art Centre Nabi and a board member of CC Korea',
+    description:
+      'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science, technology, humanities, and the arts.',
+  },
+  {
+    image: 'images/speaker_05.png',
+    fullName: 'Lila Tretikov',
+    position:
+      'Executive Director of the Wikimedia Foundation ',
+    description:
+      'Lila Tretikov is the Executive of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languag-es and used by nearly half a billion people around the world every month.',
+  },
+  {
+    image: 'images/speaker_04.png',
+    fullName: 'Kilnam Chon',
+    position:
+      '',
+    description:
+      'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital commons. In 2012, he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame.',
+  },
+  {
+    image: 'images/speaker_05.png',
+    fullName: 'Julia Leda',
+    position:
+      'President of Young Pirates of Europe',
+    description:
+      'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
+  },
+  {
+    image: 'images/speaker_06.png',
+    fullName: 'Ryan Merkley',
+    position:
+      'CEO of Creativve Commons, ex COO of the Mozilla Foundation',
+    description:
+      'Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment',
+  },
+];
 
-    },
-    {
-        image: 'images/speaker_02.png',
-        fullName: 'Kilnam chone',
-        position: 
-        '',
-        description:
-        'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',   
-    },
-    {
-        image: 'images/speaker_03.png',
-        fullName: 'Sohyeong Noh',
-        position: 
-        'Director of Art Centre Nabi and a board member of CC Korea',
-        description:
-        'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
-    },
-    {
-        image: 'images/speaker_04.png',
-        fullName: 'Julia Leda',
-        position: 
-        'President of Young Pirates of Europe',
-        description:
-        'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
-    },
-    {
-        image: 'images/speaker_05.png',
-        fullName: 'lila tretikov',
-        position: 
-        'Executive Director of the Wikimedia Foundation ',
-        description:
-        'Lila Tretikov is the Executive of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languag-es and used by nearly half a billion people around the world every month.',
-    },
-    {
-        image: 'images/speaker_06.png',
-        fullName: 'Ryan Merkley',
-        position: 
-        ' CEO of Creativve Commons, ex COO of the Mozilla Foundation',
-        description:
-        'Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment',
-    },
- ];
- 
 let speakerTemp = '';
 speakers.forEach((speaker) => {
   const speakerCode = `
@@ -137,5 +137,3 @@ speakers.forEach((speaker) => {
   speakerTemp += speakerCode;
 });
 speakerEl.innerHTML = speakerTemp;
-
-featureEl.innerHTML = featureTemp;
